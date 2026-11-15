@@ -15,13 +15,6 @@ public class Mammal{
  public static String height = "72"; //this measurement is in  inches
 
 
-//entry point into my Mammal Class
-public static void main(String[] args){
-    getMammalDetails();
-
-    return;
-}
-
 //this is the run method to allow the mammal to run
 public static void run(){
     return;
@@ -44,10 +37,17 @@ public static void scratch(){
 
 //print the properties of the class
 public static void getMammalDetails(){ //the intent here, is to read the mammal data from the properties/variables
-   System.out.println("eye color: " + eyeColor);
-   System.out.println("hair color: " + hairColor);
-   System.out.println("body temperature: " + bodyTemp);
-   System.out.println("height in inches: " + height);
+  try{
+    System.out.println("eye color: " + eyeColor);
+    System.out.println("hair color: " + hairColor);
+    System.out.println("body temperature: " + bodyTemp);
+    System.out.println("height in inches: " + height);
+
+  }
+  catch(Exception e){
+    System.out.print("The error is: " + e)
+  }
+
 
    return;
 }
