@@ -6,7 +6,6 @@
 
 package labs.example.loops;
 
-import java.util.Scanner;
 
 public class WhileLoops{
 
@@ -21,7 +20,6 @@ public class WhileLoops{
 
     //this is a basic while loop
     public static void myWhileLoop(){
-        int maxLoops = 10;
         int counter = 0;
 
         while (counter < 10){

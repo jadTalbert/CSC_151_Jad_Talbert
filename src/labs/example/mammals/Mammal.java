@@ -45,7 +45,7 @@ public static void getMammalDetails(){ //the intent here, is to read the mammal 
 
   }
   catch(Exception e){
-    System.out.print("The error is: " + e)
+    System.out.print("The error is: " + e);
   }
 
 

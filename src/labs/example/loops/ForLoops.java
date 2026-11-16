@@ -11,10 +11,10 @@ public class ForLoops{
     public static void main(String[] ars){
         ForLoops myLoop = new ForLoops();
         //myLoop.forLoopIterator(5);
-        //myLoop.countDownExample(5);
+        myLoop.countDownExample(5);
         //myLoop.evenNumberExample(10);
 
-        myLoop.accumulatorExample(15);
+        //myLoop.accumulatorExample(15);
 
     }
 
